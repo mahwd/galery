@@ -1,0 +1,67 @@
+body , html {
+  margin:0;
+  padding: 0;
+}
+* {
+  transition: all  1s ease ;
+}
+button {
+  background: transparent;
+  width: 50px;
+  border: 0;
+  margin-right: 10px;
+}
+.container {
+  position: relative;
+  top: 100px;
+  margin-top: 100px;
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+}
+.preview {
+  width: 80%;
+  height: 400px;
+  background-image: url(../img/4.png);;
+  margin: 0 auto;
+  background-size: cover;
+}
+.item-container {
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.items {
+  width: 16%;
+  height: 100%;
+  background: blue;
+  background-position: right;
+  cursor: pointer;
+  opacity:0.5;
+}
+.items:hover {
+  opacity: 1;
+}
+.menu {
+  width: 25%;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 40px;
+  text-shadow: 1px .2px 1px gray;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: cursive;
+}
+.menu-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-image: linear-gradient(rgb(117, 230, 179),rgb(44, 166, 107));
+}
